@@ -1,0 +1,22 @@
+{
+  "name": "ai-code-assistant",
+  "version": "1.0.0",
+  "description": "Unity AI 编程代码助手 - 部署在 ai.358966.xyz",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "ai",
+    "unity",
+    "code-assistant"
+  ],
+  "author": "User",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

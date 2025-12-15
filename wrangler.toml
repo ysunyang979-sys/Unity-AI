@@ -1,0 +1,18 @@
+name = "ai-code-assistant"
+main = "src/index.js"
+compatibility_date = "2025-12-14"
+
+# AI 绑定配置
+[ai]
+binding = "AI"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "unity-ai-db"
+database_id = "280e916c-2fdd-45e4-ae8c-96c0f5d7e922"
+
+# 路由配置 - 部署到二级域名 ai.358966.xyz
+[[routes]]
+pattern = "ai.358966.xyz"
+custom_domain = true
